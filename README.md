@@ -16,6 +16,6 @@ wiki page는 아무나 편집하셔도 됩니다. (이 readme 파일도 마음�
 * [Wiki page](https://github.com/koosyong/caffestudy/wiki) 에 하나씩 하나씩 컨텐츠를 채워가려고 합니다. 스터디 그룹인 만큼 많은 분들이 같이 참여하여 주시길 바랍니다. 
 * [Source code](https://github.com/koosyong/caffestudy) GIT 를 활용하셔서 스터디에 필요한 소스코드를 올려주시기 바랍니다. GIT가 처음인 분들은 [관련 이슈](https://github.com/koosyong/caffestudy/issues/4) 에 질문을 남겨주세요.
 * 새로운 업데이트를 받아보시기 원하시는 분들은 위에 눈모양으로 생긴 Notifications 버튼을 'Watching'으로 바꿔주세요. 또는 일부 Issue에 관한 내용만 받아보시길 원하면 각 Issue 별로 'subscribe' 버튼이 있습니다.
-
+* 아래 베너를 누르시면 채팅할 수 있습니다. @jihoonl 님께서 추천해 주셨습니다.
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/koosyong/caffestudy?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
