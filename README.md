@@ -1,4 +1,6 @@
 # 목적
+
+[![Join the chat at https://gitter.im/koosyong/caffestudy](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/koosyong/caffestudy?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 1. [caffe 오픈소스](http://caffe.berkeleyvision.org/) 분석을 통해 [deep learning](http://deeplearning.net/) 이해.
 2. caffe 에서 사용하는 GPU programming (NVIDIA CUDA), BLAST, Google protocol buffers, lmdb 등 유용한 dependent 라이브러리들의 이해 및 활용
 3. caffe test source code 분석을 통한 caffe architecture 및 usage 이해
