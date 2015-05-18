@@ -1,5 +1,5 @@
 # 목적
-1. caffe 오픈소스 분석을 통해 deep learning 이해.
+1. [caffe 오픈소스](http://caffe.berkeleyvision.org/) 분석을 통해 [deep learning](http://deeplearning.net/) 이해.
 2. caffe 에서 사용하는 GPU programming (NVIDIA CUDA), BLAST, Google protocol buffers, lmdb 등 유용한 dependent 라이브러리들의 이해 및 활용
 3. caffe test source code 분석을 통한 caffe architecture 및 usage 이해
 4. 다른 머신러닝, 컴퓨터비젼, 로보틱스 소프트웨어 개발을 위한 source level 에서의 caffe 라이브러리 활용
