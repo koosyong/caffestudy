@@ -150,63 +150,6 @@ int main(int argc, char** argv) {
     const Dtype kDataToDiffScaleFactor = 7;
     delete blob;
     delete blob_preshaped;
-    
-    
-
-
-
-    //    // Assuming that data are on the CPU initially, and we have a blob.
-    //    Blob<Dtype> blob;
-    //    const Dtype* foo;
-    //    Dtype* bar;
-    //    foo = blob.gpu_data(); // data copied cpu->gpu.
-    //    foo = blob.cpu_data(); // no data copied since both have up-to-date contents.
-    //    bar = blob.mutable_gpu_data(); // no data copied.
-    //    // ... some operations ...
-    //    bar = blob.mutable_gpu_data(); // no data copied when we are still on GPU.
-    //    foo = blob.cpu_data(); // data copied gpu->cpu, since the gpu side has modified the data
-    //    foo = blob.gpu_data(); // no data copied since both have up-to-date contents
-    //    bar = blob.mutable_cpu_data(); // still no data copied.
-    //    bar = blob.mutable_gpu_data(); // data copied cpu->gpu.
-    //    bar = blob.mutable_cpu_data(); // data copied gpu->cpu.
-
-
-    /*
-//    Caffe::set_phase(Caffe::TEST);
-    Caffe::set_mode(Caffe::CPU);
-
-    string img_file = argc > 1 ? argv[1] : "/home/koosy/utils/caffe-master/examples/images/cat.jpg";
-
-    string net_src = argc > 2 ? argv[2] : "/home/koosy/utils/caffe-master/examples/mnist/lenet.prototxt";
-    Net<float> caffe_test_net(net_src, TRAIN);  //get the net
-
-    string traied_net = argc > 3 ? argv[3] : "/home/koosy/utils/caffe-master/models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel";
-    caffe_test_net.CopyTrainedLayersFrom(traied_net);
-
-    cout << "reading file" << endl;
-    Datum datum;
-    if (!ReadImageToDatum(img_file, 99, 28, 28, &datum)) {
-        LOG(ERROR) << "Error during file reading";
-    }
-    std::vector<Datum> images;
-    images.push_back(datum);
-
-    float loss = 0.0;
-
-    cout << "adding images" << endl;
-    boost::dynamic_pointer_cast< caffe::MemoryDataLayer<float> >(caffe_test_net.layers()[0])->AddDatumVector(images);
-    cout << "running net" << endl;
-    std::vector<Blob<float>*> result = caffe_test_net.ForwardPrefilled(&loss);
-
-    cout << "got results" << endl;
-    LOG(INFO)<< "Output result size: "<< result.size();
-
-    int r = 1; // here in my case r=0 is for input label data, r=1 for prediction result (actually argmax layer)
-
-    const float* argmaxs = result[r]->cpu_data();
-    for (int i = 0; i < result[r]->num(); ++i) {
-        LOG(INFO)<< " Image: "<< i << " class:" << argmaxs[i]; }
-*/
 
     return 0;
 }
