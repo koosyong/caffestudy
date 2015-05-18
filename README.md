@@ -4,6 +4,7 @@
 3. caffe test source code 분석을 통한 caffe architecture 및 usage 이해
 4. 다른 머신러닝, 컴퓨터비젼, 로보틱스 소프트웨어 개발을 위한 source level 에서의 caffe 라이브러리 활용
 5. 스터디 자료들을 모아서 튜토리얼 제작 
+6. 공동 프로젝트 ?? ㅎㅎ
 
 # 대상
 원하는 사람 아무나
