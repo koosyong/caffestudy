@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.8)
 
-project (caffetest)
+project (hellocaffe)
 
 find_package(Caffe)
 include_directories(${Caffe_INCLUDE_DIRS})
