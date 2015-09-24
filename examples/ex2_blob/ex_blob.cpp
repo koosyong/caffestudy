@@ -1,16 +1,4 @@
-#include <cstring>
-#include <cstdlib>
-#include <vector>
-
-#include <string>
-#include <iostream>
-#include <stdio.h>
-#include <time.h>
-
-#include <opencv2/highgui/highgui.hpp>
-
 #include "caffe/caffe.hpp"
-#include "caffe/util/io.hpp"
 #include "caffe/blob.hpp"
 #include "caffe/common.hpp"
 #include "caffe/filler.hpp"
@@ -20,8 +8,8 @@ using namespace std;
 using namespace cv;
 
 typedef double Dtype;
-clock_t tStart, tEnd;
 
+clock_t tStart, tEnd;
 #define COMPTIME(X)          \
 cout << "CompTime of "<< (X) <<": " << (double)(tEnd-tStart)/CLOCKS_PER_SEC<<endl;
 

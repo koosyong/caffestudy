@@ -1,13 +1,3 @@
-#include <cstring>
-#include <cstdlib>
-#include <vector>
-
-#include <string>
-#include <iostream>
-#include <stdio.h>
-
-#include <opencv2/highgui/highgui.hpp>
-
 #include "caffe/caffe.hpp"
 #include "caffe/util/io.hpp"
 #include "caffe/blob.hpp"
@@ -21,8 +11,8 @@ using namespace cv;
 typedef double Dtype;
 
 int main(int argc, char** argv) {
-    Blob<Dtype>* blob_in = new Blob<Dtype>(11, 17, 19, 23);
-    Blob<Dtype>* blob_out = new Blob<Dtype>(11, 17, 19, 23);
+    Blob<Dtype>* blob_in = new Blob<Dtype>(20, 30, 40, 50);
+    Blob<Dtype>* blob_out = new Blob<Dtype>(20, 30, 40, 50);
     int n = blob_in->count();
 
     // random number generation
